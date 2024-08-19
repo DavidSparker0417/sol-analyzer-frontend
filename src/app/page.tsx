@@ -22,7 +22,7 @@ export default function Home() {
       {
         fetching
           ? <h1>Fetching ...</h1>
-          : <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          : <table>
             <thead>
               <tr>
                 <th>when</th>
